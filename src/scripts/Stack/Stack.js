@@ -50,6 +50,14 @@ const Stack = class {
   getMin() {
     return this.minStack[this.minStack.length - 1];
   }
+
+  /**
+   * Return true if stack is empty
+   * @return {number}
+   */
+  isEmpty() {
+    return this.stack.length === 0;
+  }
 };
 
 export { Stack as default };
