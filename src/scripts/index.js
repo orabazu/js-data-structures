@@ -31,4 +31,9 @@ myLinkedList.removeTail();
 myLinkedList.insert(7);
 myLinkedList.insert(8);
 myLinkedList.prepend(9);
+myLinkedList.remove(8);
+myLinkedList.remove(9);
+myLinkedList.remove(7);
+
+// myLinkedList.remove(8);
 console.log('LinkedList', myLinkedList);
